@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-page: #ffffff;
+  --color-surface: #f3f4f6;
+  --color-foreground: #1f2937;
+  --color-muted: #4b5563;
+  --color-primary: #7c3aed;
+  --color-primary-hover: #6d28d9;
+  --color-stock: #166534;
+  --color-stock-background: #dcfce7;
+  --color-unavailable: #374151;
+  --color-unavailable-background: #e5e7eb;
+  --spacing-card: 1rem;
+  --radius-card: 0.5rem;
+}
